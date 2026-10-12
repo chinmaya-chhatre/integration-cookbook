@@ -25,7 +25,7 @@ Every recipe lives in `recipes/<name>/` and gets these, one commit each:
 7. **Customer pack**: FAQ, discovery questions, go-live checklist for this integration
 
 ## Scaffold (8)
-- [ ] S.01 Repo skeleton: README (what, why, who it is for), LICENSE, `.gitignore`
+- [x] S.01 Repo skeleton: README (what, why, who it is for), LICENSE, `.gitignore`
 - [ ] S.02 `recipes/_template/` with the seven-part README skeleton
 - [ ] S.03 `common/` package: signed-payload fixtures for each provider
 - [ ] S.04 `common/mocks`: Jira-, CRM- and warehouse-style mock servers with failure injection (500, slow, 429)
