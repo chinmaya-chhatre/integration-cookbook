@@ -27,7 +27,7 @@ Every recipe lives in `recipes/<name>/` and gets these, one commit each:
 ## Scaffold (8)
 - [x] S.01 Repo skeleton: README (what, why, who it is for), LICENSE, `.gitignore`
 - [x] S.02 `recipes/_template/` with the seven-part README skeleton
-- [ ] S.03 `common/` package: signed-payload fixtures for each provider
+- [x] S.03 `common/` package: signed-payload fixtures for each provider
 - [ ] S.04 `common/mocks`: Jira-, CRM- and warehouse-style mock servers with failure injection (500, slow, 429)
 - [ ] S.05 Makefile (`make test RECIPE=...`) and a base compose file running HookScope
 - [ ] S.06 CI: matrix over recipes, lint, tests

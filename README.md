@@ -11,6 +11,10 @@ receiver that verifies signatures, retries deliveries and lets you replay events
 > **Status: just started.** The plan, with a date schedule and one checklist item per commit,
 > is in [ROADMAP.md](ROADMAP.md). The table below is what is planned, not what exists yet;
 > a recipe's row gets a link when its folder lands.
+>
+> What exists so far: [`common/`](common), signed-request builders and ready-made example events
+> for GitHub, Stripe, Shopify, Slack, Twilio, Svix and generic HMAC senders, checked against the
+> providers' published test vectors (run `python -m pytest`).
 
 ## Who it is for
 
