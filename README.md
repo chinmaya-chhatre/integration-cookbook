@@ -70,6 +70,10 @@ push, pull and batch.
   never applied.
 - A recipe ships with its failure-mode tests or it does not ship.
 
+## Contributing
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for how to add a recipe and what "done" means.
+
 ## License
 
 [MIT](LICENSE)

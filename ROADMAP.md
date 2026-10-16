@@ -32,7 +32,7 @@ Every recipe lives in `recipes/<name>/` and gets these, one commit each:
 - [x] S.05 Makefile (`make test RECIPE=...`) and a base compose file running HookScope
 - [x] S.06 CI: matrix over recipes, lint, tests
 - [x] S.07 Docs checks in CI: link checker and diagram syntax
-- [ ] S.08 `CONTRIBUTING.md` with the recipe definition of done
+- [x] S.08 `CONTRIBUTING.md` with the recipe definition of done
 
 ## Recipes (10 x 7)
 - [ ] R1 **stripe-invoice-paid-to-slack**: finance alert with a minimum-amount filter and a readable message
