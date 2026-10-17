@@ -37,7 +37,7 @@ Every recipe lives in `recipes/<name>/` and gets these, one commit each:
 ## Recipes (10 x 7)
 - [ ] R1 **stripe-invoice-paid-to-slack**: finance alert with a minimum-amount filter and a readable message
   - [x] R1.1 Problem and architecture
-  - [ ] R1.2 Config
+  - [x] R1.2 Config
   - [ ] R1.3 Core code
   - [ ] R1.4 Happy-path tests
   - [ ] R1.5 Failure-mode tests
