@@ -39,7 +39,7 @@ Every recipe lives in `recipes/<name>/` and gets these, one commit each:
   - [x] R1.1 Problem and architecture
   - [x] R1.2 Config
   - [x] R1.3 Core code
-  - [ ] R1.4 Happy-path tests
+  - [x] R1.4 Happy-path tests
   - [ ] R1.5 Failure-mode tests
   - [ ] R1.6 Troubleshooting
   - [ ] R1.7 Customer pack (and remove `.wip`)
