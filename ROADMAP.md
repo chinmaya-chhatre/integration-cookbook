@@ -41,7 +41,7 @@ Every recipe lives in `recipes/<name>/` and gets these, one commit each:
   - [x] R1.3 Core code
   - [x] R1.4 Happy-path tests
   - [x] R1.5 Failure-mode tests
-  - [ ] R1.6 Troubleshooting
+  - [x] R1.6 Troubleshooting
   - [ ] R1.7 Customer pack (and remove `.wip`)
 - [ ] R2 **github-pr-to-jira**: create and transition issues from pull request events; idempotent by PR id
 - [ ] R3 **shopify-order-to-warehouse**: reshape orders into the warehouse schema; retries, dead letters, replay after an outage
