@@ -35,14 +35,14 @@ Every recipe lives in `recipes/<name>/` and gets these, one commit each:
 - [x] S.08 `CONTRIBUTING.md` with the recipe definition of done
 
 ## Recipes (10 x 7)
-- [ ] R1 **stripe-invoice-paid-to-slack**: finance alert with a minimum-amount filter and a readable message
+- [x] R1 **stripe-invoice-paid-to-slack**: finance alert with a minimum-amount filter and a readable message
   - [x] R1.1 Problem and architecture
   - [x] R1.2 Config
   - [x] R1.3 Core code
   - [x] R1.4 Happy-path tests
   - [x] R1.5 Failure-mode tests
   - [x] R1.6 Troubleshooting
-  - [ ] R1.7 Customer pack (and remove `.wip`)
+  - [x] R1.7 Customer pack (and remove `.wip`)
 - [ ] R2 **github-pr-to-jira**: create and transition issues from pull request events; idempotent by PR id
 - [ ] R3 **shopify-order-to-warehouse**: reshape orders into the warehouse schema; retries, dead letters, replay after an outage
 - [ ] R4 **stripe-subscription-lifecycle-to-crm**: out-of-order events, a small state machine, idempotency
