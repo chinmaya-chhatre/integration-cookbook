@@ -45,7 +45,7 @@ Every recipe lives in `recipes/<name>/` and gets these, one commit each:
   - [x] R1.7 Customer pack (and remove `.wip`)
 - [ ] R2 **github-pr-to-jira**: create and transition issues from pull request events; idempotent by PR id
   - [x] R2.1 Problem and architecture
-  - [ ] R2.2 Config
+  - [x] R2.2 Config
   - [ ] R2.3 Core code
   - [ ] R2.4 Happy-path tests
   - [ ] R2.5 Failure-mode tests
