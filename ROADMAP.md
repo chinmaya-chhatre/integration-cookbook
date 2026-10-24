@@ -48,7 +48,7 @@ Every recipe lives in `recipes/<name>/` and gets these, one commit each:
   - [x] R2.2 Config
   - [x] R2.3 Core code
   - [x] R2.4 Happy-path tests
-  - [ ] R2.5 Failure-mode tests
+  - [x] R2.5 Failure-mode tests
   - [ ] R2.6 Troubleshooting
   - [ ] R2.7 Customer pack (and remove `.wip`)
 - [ ] R3 **shopify-order-to-warehouse**: reshape orders into the warehouse schema; retries, dead letters, replay after an outage
