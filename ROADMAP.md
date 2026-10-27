@@ -52,6 +52,13 @@ Every recipe lives in `recipes/<name>/` and gets these, one commit each:
   - [x] R2.6 Troubleshooting
   - [x] R2.7 Customer pack (and remove `.wip`)
 - [ ] R3 **shopify-order-to-warehouse**: reshape orders into the warehouse schema; retries, dead letters, replay after an outage
+  - [x] R3.1 Problem and architecture
+  - [ ] R3.2 Config
+  - [ ] R3.3 Core code
+  - [ ] R3.4 Happy-path tests
+  - [ ] R3.5 Failure-mode tests
+  - [ ] R3.6 Troubleshooting
+  - [ ] R3.7 Customer pack (and remove `.wip`)
 - [ ] R4 **stripe-subscription-lifecycle-to-crm**: out-of-order events, a small state machine, idempotency
 - [ ] R5 **twilio-sms-to-support-ticket**: form-encoded bodies and the proxy/URL signature pitfall
 - [ ] R6 **webhook-to-queue-on-aws**: ack fast, process later (HookScope, SQS, worker); Terraform checked with `validate`, tests against LocalStack
